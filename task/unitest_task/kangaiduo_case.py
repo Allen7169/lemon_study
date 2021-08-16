@@ -1,5 +1,5 @@
 import unittest
-from kanaiduo_method import HttpRequests
+from kangaiduo_method import HttpRequests
 
 login_url = 'https://user.360kad.com/Login/AjaxLoginV2'
 login_body = {"userName": 15900571886, "pass": "123zhc", "isRemberName": "false", "loginPlatform": 1}

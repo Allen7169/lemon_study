@@ -1,5 +1,5 @@
 import unittest
-from kanaiduo_case import TestLoginMethod
+from kangaiduo_case import TestLoginMethod
 
 suite = unittest.TestSuite()
 
