@@ -1,0 +1,21 @@
+test_add_two_negative (demo_01.TestAddMethod) ... ok
+test_add_two_positive (demo_01.TestAddMethod) ... FAIL
+test_add_two_zero (demo_01.TestAddMethod) ... ok
+test_multi_two_negative (demo_01.TestMultiMethod) ... ok
+test_multi_two_positive (demo_01.TestMultiMethod) ... ok
+test_multi_two_zero (demo_01.TestMultiMethod) ... ok
+
+======================================================================
+FAIL: test_add_two_positive (demo_01.TestAddMethod)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\allen\pycharm_project\unittest_study\demo_01.py", line 19, in test_add_two_positive
+    raise e
+  File "C:\allen\pycharm_project\unittest_study\demo_01.py", line 16, in test_add_two_positive
+    self.assertEqual(3, result, "结果报错")
+AssertionError: 3 != 2 : 结果报错
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (failures=1)
